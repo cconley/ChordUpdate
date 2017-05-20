@@ -3,7 +3,7 @@
 }
 
 .chord path {
-  fill-opacity: .9;
+  fill-opacity: .1;
   stroke: #000;
   stroke-width: .5px;
 }

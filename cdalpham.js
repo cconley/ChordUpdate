@@ -24,8 +24,8 @@ function fade(a){return function(b,c){svg
             
             var chord=alpha;
             
-            var w=570,
-                h=500,
+            var w=770,
+                h=700,
                 r0=Math.min(w,h)*.41,
                 r1=r0*1.1;
             

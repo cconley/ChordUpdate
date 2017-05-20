@@ -24,8 +24,8 @@ function fade(a){return function(b,c){svg
             
             var chord=alpha;
             
-            var w=570,
-                h=500,
+            var w=770,
+                h=700,
                 r0=Math.min(w,h)*.41,
                 r1=r0*1.1;
             
@@ -55,9 +55,9 @@ function fade(a){return function(b,c){svg
                     .innerRadius(r0)
                     .outerRadius(r1))
                     .on("mouseover",
-                        fade(.2))
+                        fade(.1))
                     .on("mouseout",
-                        fade(.1));
+                        fade(1));
             
             var ticks=svg.append("svg:g")
                     .selectAll("g")

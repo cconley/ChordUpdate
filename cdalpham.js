@@ -57,7 +57,7 @@ function fade(a){return function(b,c){svg
                     .on("mouseover",
                         fade(1))
                     .on("mouseout",
-                        fade(.1));
+                        fade(1));
             
             var ticks=svg.append("svg:g")
                     .selectAll("g")

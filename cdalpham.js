@@ -38,7 +38,7 @@ function fade(a){return function(b,c){svg
                     .attr("width",w)
                     .attr("height",h)
                     .append("svg:g")
-                    .attr("transform","translate("+w/3+","+h/3+")");
+                    .attr("transform","translate("+w/2+","+h/2+")");
                 
                 svg.append("svg:g")
                     .selectAll("path")
@@ -55,7 +55,7 @@ function fade(a){return function(b,c){svg
                     .innerRadius(r0)
                     .outerRadius(r1))
                     .on("mouseover",
-                        fade(.1))
+                        fade(.2))
                     .on("mouseout",
                         fade(1));
             

@@ -24,8 +24,8 @@ function fade(a){return function(b,c){svg
             
             var chord=alpha;
             
-            var w=770,
-                h=700,
+            var w=570,
+                h=500,
                 r0=Math.min(w,h)*.41,
                 r1=r0*1.1;
             
@@ -38,7 +38,7 @@ function fade(a){return function(b,c){svg
                     .attr("width",w)
                     .attr("height",h)
                     .append("svg:g")
-                    .attr("transform","translate("+w/2+","+h/2+")");
+                    .attr("transform","translate("+w/3+","+h/3+")");
                 
                 svg.append("svg:g")
                     .selectAll("path")

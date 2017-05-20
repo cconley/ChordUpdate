@@ -4,8 +4,8 @@
 
 var svg = d3.select("#chart")
   .append("svg:svg")
-    .attr("width", 150)
-    .attr("height",400)
+    .attr("width", 250)
+    .attr("height",600)
 	.attr("x",0)
 	.attr("y",0)
 
